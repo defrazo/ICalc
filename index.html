@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>IPhone Калькулятор</title>
+	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+	<div class="box1" align="center">
+		<form name="calc" action="">
+		<output id="editWide" name="ReadOut" type="number" class="output">0</output></div><div class="box2">
+			<table>
+				<tr>
+					<input type="Button" id="clear" class="but2" value="C" onClick="ClearEntry()" />
+					<input type="Button" id="negative" class="but2" value="+/−" onClick="Neg()" />
+					<input type="Button" id="percent" class="but2" value="%" onClick="Percent()" />
+					<input type="Button" id="div" class="but" value="÷" onClick="Operation('/')" /><br />
+				</tr>
+				<tr>
+					<input type="Button" id="num7" class="num" value="7" onClick="NumPressed(7)" />
+					<input type="Button" id="num8" class="num" value="8" onClick="NumPressed(8)" />
+					<input type="Button" id="num9" class="num" value="9" onClick="NumPressed(9)" />
+					<input type="Button" id="multi" class="but" value="x" onClick="Operation('*')" /><br />
+				</tr>
+				<tr>
+					<input type="Button" id="num4" class="num" value="4" onClick="NumPressed(4)" />
+					<input type="Button" id="num5" class="num" value="5" onClick="NumPressed(5)" />
+					<input type="Button" id="num6" class="num" value="6" onClick="NumPressed(6)" />
+					<input type="Button" id="sub" class="but" value="−" onClick="Operation('-')" /><br />
+				</tr>
+				<tr>
+					<input type="Button" id="num1" class="num" value="1" onClick="NumPressed(1)" />
+					<input type="Button" id="num2" class="num" value="2" onClick="NumPressed(2)" />
+					<input type="Button" id="num3" class="num" value="3" onClick="NumPressed(3)" />
+					<input type="Button" id="add" class="but" value="+" onClick="Operation('+')" /><br />
+				</tr>
+				<tr>
+					<input type="Button" id="num0" class="num0" value="0" onClick="NumPressed(0)" />
+					<input type="Button" id="dot" class="num" value="." onClick="Decimal()" />
+					<input type="Button" id="equal" class="but" value="=" onClick="Operation('=')" /><br />
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+	<script type="text/javascript" src="./res/script.js"></script>
+</html>

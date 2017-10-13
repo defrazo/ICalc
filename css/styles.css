@@ -1,0 +1,93 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	background-image: url(../images/background.jpg);
+}
+
+.box1{
+	position: fixed;
+	/*padding-top: 200px;
+	left: 530px;*/
+	left: 1px;
+}
+
+.box2{
+	position: fixed;
+	top: 77px;
+}
+
+.output{
+	font-family: Calibri, sans-serif;
+	font-weight: 100;
+	font-size: 46px;
+	text-align: right;
+	color: #f8f8f8;
+    padding: 20px 14px 0px 0px;
+    border: #000000 1px solid;
+	position: fixed;
+	width: 290px;
+    height: 55px;
+/*	top: 124px;
+	left: 531px;*/
+	background-color: black;
+}
+
+.but{
+	font-family: Calibri, sans-serif;
+	font-weight: 100;
+	font-size: 30px;
+	color: #f8f8f8;
+	width: 77px;
+	height: 77px;
+	border: black 1px solid;
+	background-color: #f88020;
+}
+
+.but2{
+	font-family: Calibri, sans-serif;
+	font-weight: 100;
+	font-size: 30px;
+	width: 77px;
+	height: 77px;
+	border: black 1px solid;
+	background-color: #b8b8b8;
+}
+
+.num{
+	font-family: Calibri, sans-serif;
+	font-weight: 100;
+	font-size: 30px;
+	width: 77px;
+	height: 77px;
+	border: black 1px solid;
+	background-color: #c8c8c8;
+}
+
+.num0{
+	font-family: Calibri, sans-serif;
+	font-weight: 100;
+	font-size: 30px;
+	width: 154px;
+	height: 77px;
+	border: black 1px solid;
+	background-color: #cdced1;
+}
+
+.but:active{
+	background-color: rgba(248, 128, 32, 0.87);
+}
+
+.but2:active{
+	background-color: rgba(184, 184, 184, 0.91);
+}
+
+.num:active{
+	background-color: #b8b8b8;
+}
+
+.num0:active{
+	background-color: #b8b8b8;
+}
